@@ -1,1 +1,3 @@
-console.log("Hello, World!");
+import fs = require("fs");
+
+console.log(fs.readFileSync("/dev/null"))
